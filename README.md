@@ -1,2 +1,2 @@
 # competitve_programming
-Hey &lt;/peeps> here upload exercise problems of codechef/codeforces/hackerrank/haackerearth
+Hey &lt;/peeps> here i upload exercise problems of codechef/codeforces/hackerrank/haackerearth
