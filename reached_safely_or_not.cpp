@@ -1,44 +1,44 @@
-#include<iostream>
+#include <bits/stdc++.h>
 using namespace std;
-int main()
-{
-    int t;
-    cin >>t;
-    while(t--)
-    {
-        int m,n,Rx,Ry,a,count=1;
-        int x=0,y=0;
-        char R , L ,U , D;
-        string s;
-        cin >> m >> n >> Rx >> Ry >> a >> s;
 
-        for(int i=0;i<s.size();i++)
-        {
-            if(s[i]== 'R')
-                x++;
-            if(s[i]== 'L')
-                x--;
-            if(s[i]== 'U')
-                y++;
-            if(s[i]== 'D')
-                y--;
-        }
+int main() {
+	int t,m,n,x1,y1,x,y,l,i,count=1;
+	string res,str;
+	cin>>t;
+	while(t--)
+	{
+	    cin>>m;
+	    cin>>n;
+	    cin>>x;
+	    cin>>y;
+	    cin>>l;
+	    cin>>str;
 
-        if ((x < 0 || y < 0) || (x > m || y > n ))
-        {
-            cout << "case " << count << ": " << "DANGER" << endl;
-            count++;
-        }
-        else if (x == Rx && y == Ry)
-        {
-            cout << "case " << count << ": " << "REACHED" << endl;
-            count++;
-        }
-        else
-        {
-            cout << "case " << count << ": " << "SOMEWHERE" << endl;
-            count++;
-        }
-    }
-    return 0;
+	    x1=0;
+	    y1=0;
+
+	    for(i=0;i<l;i++)
+	    {
+	        if(str[i]=='U')
+	        y1++;
+	        else if(str[i]=='D')
+	        y1--;
+	        else if(str[i]=='R')
+	        x1++;
+	        else
+	        x1--;
+	    }
+	    if((x1<0)||(x1>m))
+	    res="DANGER";
+	    else if((y1<0)||(y1>n))
+	    res="DANGER";
+	    else if((x1==x)&&(y1==y))
+	    res="REACHED";
+	    else
+	    res="SOMEWHERE";
+
+	    cout<<"Case "<<count<<": "<<res<<endl;
+	    count++;
+	}
+	return 0;
 }
