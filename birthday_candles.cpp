@@ -16,6 +16,7 @@ int main()
     {
         if(arr[i]==max)
             count++;
+        
     }
     cout << count << endl;
         return 0;
