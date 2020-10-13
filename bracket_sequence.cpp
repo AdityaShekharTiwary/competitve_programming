@@ -27,6 +27,7 @@ ans--;
 mp[ans]++;
 
 }
+  
 
 cout<<(ans==0)*mp.begin()->second<<endl;
 
