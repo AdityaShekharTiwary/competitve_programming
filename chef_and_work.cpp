@@ -20,10 +20,7 @@ int main()
                break;
             }
 
-           // else if
-
-              //  (arr[i] < k && arr[i] + arr[i+1] <= k)
-                //count++;
+ 
 
                 int sum = arr[i];
             count++;
