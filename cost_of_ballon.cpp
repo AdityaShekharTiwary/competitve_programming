@@ -35,7 +35,6 @@ f++;
 if(m==1)
 
 s++;
-
 }
 
 int price1=0,price2=0;
