@@ -13,7 +13,6 @@ int main()
 while(n!=0)
 
 {
-
    n=n-i;
 
    if(n<1)
