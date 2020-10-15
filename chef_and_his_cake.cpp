@@ -30,5 +30,6 @@ int main() {
 	    }
 	    cout<<min(sum1, sum2)<<endl;
 	}
+	
 	return 0;
 }
