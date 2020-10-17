@@ -15,6 +15,7 @@ int main()
         c= b-a;           // total working hour
 
         cout << c/60 << " " << c%60 << endl;
+        
 
     }
     return 0;
