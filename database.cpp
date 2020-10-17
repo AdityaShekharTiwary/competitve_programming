@@ -30,6 +30,7 @@ int main() {
             cin>>Header[i];
             attr_len[i] = Header[i].length();
             max_cell[i] = attr_len[i];
+            
         }
         string data[n][m];
         int data_len[n][m];
