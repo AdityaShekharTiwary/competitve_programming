@@ -18,6 +18,7 @@ int main() {
 	    if(num2<=y){
 	        num2=y+abs(arr[c-1]-arr[d-1])*q+abs(arr[d-1]-arr[b-1])*p;
 	    }else num2=LONG_MAX;
+		
 	    cout<<min(num1,num2)<<endl;
 	}
 	return 0;
