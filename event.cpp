@@ -32,6 +32,7 @@ int main()
                  long long cnt=0;
 	    long long temp=0;
 
+	    
 	    while(diff<=r)
 	    {
 	        if(diff>=l)
