@@ -26,6 +26,7 @@ int main() {
 	    }
 	    cout<<b<<" "<<ni<<" "<<by<<"\n";
 	}
+	
 	return 0;
 }
 
