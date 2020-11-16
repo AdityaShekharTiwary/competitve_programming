@@ -23,6 +23,5 @@ int main()
         else cout<<"safe"<<endl;
 
     }
-
     return 0;
 }
