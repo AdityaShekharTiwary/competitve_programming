@@ -7,6 +7,7 @@ int main()
     if((x1 - x2) % (v2 - v1) == 0)
         cout << "YES" << endl;
     else
+        
         cout<< "NO" << endl;
     return 0;
 }
