@@ -24,8 +24,6 @@ int main() {
              cout<<(k*s)/n<<endl;
             else
             cout<<(k*s)/n+1<<endl;
-
-
         }
 
         }
