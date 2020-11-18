@@ -14,6 +14,7 @@ int main() {
 	    m=l-k+1;
 	    ans= (m*(m+1))/2;
 	    cout<<"Case "<<i<<": "<<ans<<endl;
+		    
 	    }
 	}
 	return 0;
