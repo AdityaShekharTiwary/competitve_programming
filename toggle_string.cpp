@@ -19,7 +19,6 @@ int main()
         {
 
             s[i]+=32;
-
         }
 
         else
