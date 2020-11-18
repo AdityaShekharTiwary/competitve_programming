@@ -23,6 +23,5 @@ int main()
         else
             cout << "DRAW" << endl;
     }
-
     return 0;
 }
