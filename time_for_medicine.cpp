@@ -24,6 +24,7 @@ int main()
 				cout<<(29-d)/2+1<<endl;
 			else
 				cout<<(28-d+31)/2+1<<endl;
+			
 		}
 	}
 	return 0;
