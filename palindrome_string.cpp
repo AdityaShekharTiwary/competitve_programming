@@ -11,6 +11,7 @@ int main()
         if(s[i] == s[l-i])
 
             cout << "YES" << endl;
+    
         else
             
             cout << "NO" << endl;
