@@ -41,6 +41,7 @@ In the first test case, the person who plays first will get the total sum = 1 si
 In the second test case, both will get the sum = 2 so it doesn't matter who plays first. It will always result in draw.*/
 
 
+
 #include <bits/stdc++.h>
 #define ll long long int
 #define endl "\n"
