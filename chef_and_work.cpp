@@ -6,6 +6,7 @@ int main()
     cin >> t;
     while(t--)
     {
+        
         int n,k,count=0;
         int arr[1001];
         cin >> n >> k;
