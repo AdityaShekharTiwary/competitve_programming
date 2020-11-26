@@ -31,6 +31,8 @@ int main()
                 sum += arr[i];
 
 
+                
+                
          }
         }
 
