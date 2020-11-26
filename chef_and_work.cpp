@@ -22,6 +22,8 @@ int main()
 
  
 
+             
+             
                 int sum = arr[i];
             count++;
             while ((i + 1) < n && (sum + arr[i+1]) <= k) {
