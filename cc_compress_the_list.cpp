@@ -17,6 +17,7 @@ int main() {
                 d++;
             continue;
             }
+		
             if(d>=2){
                 cout<<arr[i-d]<<"..."<<arr[i];
             }
