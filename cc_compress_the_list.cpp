@@ -11,6 +11,7 @@ int main() {
         for(int i=0;i<b;i++){
             cin>>arr[i];
         }
+	    
         for(int i=0;i<b;i++){
             if(arr[i+1]==arr[i]+1)
             {
