@@ -12,7 +12,6 @@ bool Paranthes(string ex)
 			s.push(ex[i]);
 			continue;
 		}
-
 		if (s.empty())
 			return false;
 
