@@ -34,7 +34,6 @@ bool Paranthes(string ex)
 
 		case ']':
 
-
 			x = s.top();
 			s.pop();
 			if (x == '(' || x == '{')
